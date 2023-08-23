@@ -37,10 +37,13 @@ section#login {
     width: 250px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
     
 }
 
-div#imagem {
+section#login > div#imagem {
     display: block;
     height: 200px;
     background: #5f2c82 url('../imagens/metal.jpg') left bottom no-repeat;
@@ -48,30 +51,32 @@ div#imagem {
     margin-bottom: 10px;
 }
 
-div#formulario {
+section#login > div#formulario {
     display: block;
 }
 
-div#formulario > h1 {
+section#login > div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-div#formulario > p {
+section#login > div#formulario > p {
     padding: 10px;
     font-size: 0.8em;
 }
 
 div.campo {
     margin: auto;
-    width: 230px;
+    width: 92%;
     height: 40px;
     background-color: #5f2c82;
     border-radius: 10px;
+    margin-bottom: 5px;
 
 }
 
 div.campo > input {
+    width: 79%;
     background-color: #94cfcd;
     border-radius: 10px;
     font-size: 1em;
@@ -91,7 +96,7 @@ form > input {
     display: block;
     font-size: 1em;
     margin: auto;
-    width: 100%;
+    width: 92%;
     height: 40px;
     background-color: #53aaa7;
     cursor: pointer;
@@ -108,7 +113,8 @@ form > input:hover {
 
 form > a.botao {
     display: block;
-    width: 100%;
+    margin: auto;
+    width: 92%;
     height: 40px;
     font-size: 1em;
     text-align: center;
