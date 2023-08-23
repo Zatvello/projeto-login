@@ -21,6 +21,7 @@
 
     section#login {
         width: 80vw;
+        height: 290px;
     }
 
     section#login > div#imagem {
@@ -37,7 +38,7 @@
 
 }
 
-@media screen and (min-width: 992px) { /* GRANDES TELAS */ 
+@media screen and (min-width: 992px) { /* DESKTOP */ 
     
     section#login {
         height: 350px;
