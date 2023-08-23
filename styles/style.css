@@ -51,23 +51,23 @@ section#login > div#imagem {
     margin-bottom: 10px;
 }
 
-section#login > div#formulario {
+div#formulario {
     display: block;
 }
 
-section#login > div#formulario > h1 {
+div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-section#login > div#formulario > p {
+div#formulario > p {
     padding: 10px;
     font-size: 0.8em;
 }
 
 div.campo {
     margin: auto;
-    width: 92%;
+    width: 95%;
     height: 40px;
     background-color: #5f2c82;
     border-radius: 10px;
@@ -77,6 +77,7 @@ div.campo {
 
 div.campo > input {
     width: 79%;
+    height: 80%;
     background-color: #94cfcd;
     border-radius: 10px;
     font-size: 1em;
@@ -87,7 +88,7 @@ div.campo > input:active {
     background-color: white;
 }
 
-div.campo > span {
+div.campo > span { /* Material Icons Google */
     font-size: 2em;
     color: white;
 }
@@ -96,7 +97,7 @@ form > input {
     display: block;
     font-size: 1em;
     margin: auto;
-    width: 92%;
+    width: 95%;
     height: 40px;
     background-color: #53aaa7;
     cursor: pointer;
@@ -114,7 +115,7 @@ form > input:hover {
 form > a.botao {
     display: block;
     margin: auto;
-    width: 92%;
+    width: 95%;
     height: 40px;
     font-size: 1em;
     text-align: center;
